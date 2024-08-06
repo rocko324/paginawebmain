@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="diseno/style.css">
+    <link rel="stylesheet" type="text/css" href="diseno/baner.css">
+    <link rel="stylesheet" type="text/css" href="diseno/darkmode.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/63b481eb0f.js" crossorigin="anonymous"></script>
+        
+    <title>Bienvenido a Nuestro Policlinico</title>
+</head>
+
+<body>
+
+    <div class="baner-a">
+        <div class="texto-1">
+            <a>         
+
+                Tu salud es igual de importante para nosotros
+            </a>
+        </div>
+
+        <div class="texto-2">
+            <a class="txt-a">
+                Correo: invitado123@gmail.com
+            </a>
+
+            <a class="txt-a">
+                Celular: +51 xxx xxx xxx
+            </a>
+        </div>
+    </div>
+
+    <nav class="nav" id="menu">
+        
+
+        <div class="logo">
+            <a class="dise-a" href="Index.html">
+                <img class="img-logo" src="image/logo.png">
+            </a>
+        </div>
+
+        <ul>
+            <li>
+                <a class="menu" href="Nosotros.html" onclick="seleccionarOpcion(this)">Nosotros</a>
+            </li>
+
+            <li>
+                <a class="menu" href="Epecialidad.html" onclick="seleccionarOpcion(this)">Especialidades</a>
+            </li>
+            <li>
+                <a class="menu" href="Servicios.html" onclick="seleccionarOpcion(this)">Servicios</a>
+
+            </li>
+            <li>
+                <a class="menu" href="Promocion.html" onclick="seleccionarOpcion(this)">Promociones</a>
+            </li>
+
+            <a href="#" id="darkModeToggle" class="darkMode" onclick="toggleDarkMode()">
+                <img src="image/iconos/dark-mode-light.png" id="darkModeIcon">
+            </a>
+
+        </ul>
+
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        
+    </nav>
+
+    <div class="menubar">
+        <ul>
+            <li>
+                <a class="menum" href="Nosotros.html" onclick="seleccionarOpcion(this)">Nosotros</a>
+            </li>
+
+            <li>
+                <a class="menum" href="Epecialidad.html" onclick="seleccionarOpcion(this)">Especialidades</a>
+            </li>
+            <li>
+                <a class="menum" href="Servicios.html" onclick="seleccionarOpcion(this)">Servicios</a>
+
+            </li>
+            <li>
+                <a class="menum" href="Promocion.html" onclick="seleccionarOpcion(this)">Promociones</a>
+            </li>
+
+        </ul>
+    </div>
+
+
+
+    <div class="container carousel" >
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/inicio/img1.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/inicio/img2.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/inicio/img3.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/inicio/img4.jpg" class="d-block w-100" alt="Imagen 4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <br><br>
+    <div class="container">
+        <div class="row apartado">
+            <div class="col-12 col-md-6">
+                <img src="image/inicio/doctora.jpg" class="img-fluid" alt="Doctora">
+            </div>
+            <div class="col-12 col-md-6 texto">
+                <p class="text-b">PORQUE NOSOTROS TAMBIEN PENSAMOS EN TI</p>
+                <h2>Contamos con servicios 100% en linea</h2>
+                <p class="text-p">Ahora puedes realizar tus citas y consultar tus resultados de forma totalmente online,
+                    también puedes ver nuestro horario de atención, especialidades, médicos y nuestros servicios de
+                    salud
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <footer class="pie">
+        <div class="header">
+            <div class="logo">
+                <img class="img-fluid" src="image/logo.png"style="width:150px">
+            </div>
+            <div>
+                <h5 > para cualquier consulta contactarnos al</h5>
+                <h2  style="text-align: center" > 999999999</h2>
+            </div>
+            <div class="redes">
+                <span class="fb"><i class="fa-brands fa-facebook"></i></span>
+                <span class="in"><i class="fa-brands fa-instagram"></i></span>
+                
+            </div>
+        </div>
+        <hr>
+       
+        
+        <div class="derechos">
+            <p style="color: white;text-align: center">
+                <img class="img-fluid" src="image/logo.png"style="width:150px">copyright©2024DivinaLuz|derechos reservados
+            </p>
+        </div>
+    </footer>
+
+
+    <a class="dise-a" href="https://api.whatsapp.com/send?phone=51906965272&text=Quisiera%20mas%20informacion"
+        target="_blank">
+        <img src="image/iconos/whatsapp.png" class="whatsapp-button img-fluid" alt="WhatsApp">
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/carrusel.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/code.js"></script>
+
+    
+</body>
+
+</html>

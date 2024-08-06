@@ -1,0 +1,13 @@
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+body.dark-mode .ul-menu {
+    background-color: #1a1a1a;
+}
+
+body.dark-mode select {
+    background-color: #333333;
+    color: #ffffff;
+}
