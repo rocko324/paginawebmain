@@ -609,37 +609,8 @@ nav {
     html{
         scroll-behavior: smooth;
     }
-    .mgeneral{
-        background:#e5ea8d;
-        border-radius: 10px;
-    }
-    .ginecologia{
-        background:#e5ea8d;
-        border-radius: 10px;
-    }
-    .pediatria{
-        background:#e5ea8d;
-        border-radius: 10px;
-    }
-    .nutricion{
-        background:#e5ea8d;
-        border-radius: 10px;
-    }
-    .psicologia{
-        background:#e5ea8d;
-        border-radius: 10px;
-    }.gastro{
-        background:#e5ea8d;
-        border-radius: 10px;
-    }
-    .otorrino{
-        background:#e5ea8d;
-        border-radius: 10px;
-    }
-    .cardio{
-        background:#e5ea8d;
-        border-radius: 10px;
-    }
+    
+    
     footer {
         background-color: #0f6eaa;
         color: #fff;
